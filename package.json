@@ -1,0 +1,22 @@
+{
+  "name": "react-native-custom-native",
+  "version": "1.0.0",
+  "description": "这是一个npm发布测试项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnwhao/react-native-CustomNative.git"
+  },
+  "keywords": [
+    "王浩浩"
+  ],
+  "author": "wanghaohao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnwhao/react-native-CustomNative/issues"
+  },
+  "homepage": "https://github.com/cnwhao/react-native-CustomNative#readme"
+}
