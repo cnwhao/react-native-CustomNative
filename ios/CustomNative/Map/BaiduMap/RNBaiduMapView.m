@@ -8,6 +8,7 @@
 
 #import "RNBaiduMapView.h"
 
-@implementation RNBaiduMapView
-
+@implementation RNBaiduMapView {
+    
+}
 @end

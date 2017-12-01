@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RNBaiduMapView.h"
 
-@interface RNBaiduMapViewManager : NSObject
+@interface RNBaiduMapViewManager : RCTViewManager<BMKMapViewDelegate>
+
++(void)initSDK:(NSString *)key;
+
+-(void)sendEvent:(RNBaiduMapView *)mapView params:(NSDictionary *)params;
+
 
 @end

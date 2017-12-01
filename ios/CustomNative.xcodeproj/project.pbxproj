@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		9A6305931FCFD40A00902815 /* CustomNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6305921FCFD40A00902815 /* CustomNative.m */; };
 		9A6305941FCFD40A00902815 /* CustomNative.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A6305911FCFD40A00902815 /* CustomNative.h */; };
+		9A63062C1FCFF73600902815 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6306241FCFF73600902815 /* BaiduMapAPI_Base.framework */; };
+		9A63062D1FCFF73600902815 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6306251FCFF73600902815 /* BaiduMapAPI_Cloud.framework */; };
+		9A63062E1FCFF73600902815 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6306261FCFF73600902815 /* BaiduMapAPI_Location.framework */; };
+		9A63062F1FCFF73600902815 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6306271FCFF73600902815 /* BaiduMapAPI_Map.framework */; };
+		9A6306301FCFF73600902815 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6306281FCFF73600902815 /* BaiduMapAPI_Radar.framework */; };
+		9A6306311FCFF73600902815 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6306291FCFF73600902815 /* BaiduMapAPI_Search.framework */; };
+		9A6306321FCFF73600902815 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A63062A1FCFF73600902815 /* BaiduMapAPI_Utils.framework */; };
+		9A6306331FCFF73600902815 /* BaiduTraceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A63062B1FCFF73600902815 /* BaiduTraceSDK.framework */; };
+		9A6306361FD11E9F00902815 /* RNBaiduMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6306351FD11E9F00902815 /* RNBaiduMapViewManager.m */; };
+		9A63063C1FD11F8400902815 /* RNBaiduMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A63063B1FD11F8400902815 /* RNBaiduMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +38,18 @@
 		9A63058E1FCFD40A00902815 /* libCustomNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCustomNative.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6305911FCFD40A00902815 /* CustomNative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNative.h; sourceTree = "<group>"; };
 		9A6305921FCFD40A00902815 /* CustomNative.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNative.m; sourceTree = "<group>"; };
+		9A6306241FCFF73600902815 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		9A6306251FCFF73600902815 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		9A6306261FCFF73600902815 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		9A6306271FCFF73600902815 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		9A6306281FCFF73600902815 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		9A6306291FCFF73600902815 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		9A63062A1FCFF73600902815 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		9A63062B1FCFF73600902815 /* BaiduTraceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduTraceSDK.framework; sourceTree = "<group>"; };
+		9A6306341FD11E9F00902815 /* RNBaiduMapViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBaiduMapViewManager.h; sourceTree = "<group>"; };
+		9A6306351FD11E9F00902815 /* RNBaiduMapViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBaiduMapViewManager.m; sourceTree = "<group>"; };
+		9A63063A1FD11F8400902815 /* RNBaiduMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBaiduMapView.h; sourceTree = "<group>"; };
+		9A63063B1FD11F8400902815 /* RNBaiduMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBaiduMapView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A63062D1FCFF73600902815 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				9A6306331FCFF73600902815 /* BaiduTraceSDK.framework in Frameworks */,
+				9A63062E1FCFF73600902815 /* BaiduMapAPI_Location.framework in Frameworks */,
+				9A6306311FCFF73600902815 /* BaiduMapAPI_Search.framework in Frameworks */,
+				9A6306301FCFF73600902815 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				9A63062C1FCFF73600902815 /* BaiduMapAPI_Base.framework in Frameworks */,
+				9A63062F1FCFF73600902815 /* BaiduMapAPI_Map.framework in Frameworks */,
+				9A6306321FCFF73600902815 /* BaiduMapAPI_Utils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +74,7 @@
 		9A6305851FCFD40A00902815 = {
 			isa = PBXGroup;
 			children = (
+				9A6306231FCFF73600902815 /* lib */,
 				9A6305901FCFD40A00902815 /* CustomNative */,
 				9A63058F1FCFD40A00902815 /* Products */,
 			);
@@ -60,10 +91,45 @@
 		9A6305901FCFD40A00902815 /* CustomNative */ = {
 			isa = PBXGroup;
 			children = (
+				9A6306211FCFF69F00902815 /* Map */,
 				9A6305911FCFD40A00902815 /* CustomNative.h */,
 				9A6305921FCFD40A00902815 /* CustomNative.m */,
 			);
 			path = CustomNative;
+			sourceTree = "<group>";
+		};
+		9A6306211FCFF69F00902815 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9A6306221FCFF69F00902815 /* BaiduMap */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9A6306221FCFF69F00902815 /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				9A6306341FD11E9F00902815 /* RNBaiduMapViewManager.h */,
+				9A6306351FD11E9F00902815 /* RNBaiduMapViewManager.m */,
+				9A63063A1FD11F8400902815 /* RNBaiduMapView.h */,
+				9A63063B1FD11F8400902815 /* RNBaiduMapView.m */,
+			);
+			path = BaiduMap;
+			sourceTree = "<group>";
+		};
+		9A6306231FCFF73600902815 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9A6306241FCFF73600902815 /* BaiduMapAPI_Base.framework */,
+				9A6306251FCFF73600902815 /* BaiduMapAPI_Cloud.framework */,
+				9A6306261FCFF73600902815 /* BaiduMapAPI_Location.framework */,
+				9A6306271FCFF73600902815 /* BaiduMapAPI_Map.framework */,
+				9A6306281FCFF73600902815 /* BaiduMapAPI_Radar.framework */,
+				9A6306291FCFF73600902815 /* BaiduMapAPI_Search.framework */,
+				9A63062A1FCFF73600902815 /* BaiduMapAPI_Utils.framework */,
+				9A63062B1FCFF73600902815 /* BaiduTraceSDK.framework */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6305931FCFD40A00902815 /* CustomNative.m in Sources */,
+				9A63063C1FD11F8400902815 /* RNBaiduMapView.m in Sources */,
+				9A6306361FD11E9F00902815 /* RNBaiduMapViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +306,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -250,6 +322,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RCTViewManager.h"
+#import "RCTConvert+CoreLocation.h"
+#import <BaiduMapAPI_Map/BMKMapView.h>
+#import <BaiduMapAPI_Map/BMKPinAnnotationView.h>
+#import <BaiduMapAPI_Map/BMKPointAnnotation.h>
 
-@interface RNBaiduMapView : NSObject
+@interface RNBaiduMapView : BMKMapView <BMKMapViewDelegate>
+
+@property (nonatomic, copy) RCTBubblingEventBlock onChange;
+
 
 @end
