@@ -274,7 +274,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -337,7 +337,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"\"$(SRCROOT)/CustomNative/Map/BaiduMap/RNBaiduMapViewManager.h\"",
+					"\"$(SRCROOT)/CustomNative/Map/BaiduMap/RNBaiduMapView.h\"",
+					"\"$(SRCROOT)/CustomNative/CustomNative.h\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -353,7 +358,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"\"$(SRCROOT)/CustomNative/Map/BaiduMap/RNBaiduMapViewManager.h\"",
+					"\"$(SRCROOT)/CustomNative/Map/BaiduMap/RNBaiduMapView.h\"",
+					"\"$(SRCROOT)/CustomNative/CustomNative.h\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
