@@ -355,6 +355,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
 					"\"$(SRCROOT)/CustomNative/Map/BaiduMap/RNBaiduMapViewManager.h\"",
@@ -376,6 +377,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
 					"\"$(SRCROOT)/CustomNative/Map/BaiduMap/RNBaiduMapViewManager.h\"",
