@@ -19,6 +19,15 @@
 		9A6306331FCFF73600902815 /* BaiduTraceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A63062B1FCFF73600902815 /* BaiduTraceSDK.framework */; };
 		9A6306361FD11E9F00902815 /* RNBaiduMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6306351FD11E9F00902815 /* RNBaiduMapViewManager.m */; };
 		9A63063C1FD11F8400902815 /* RNBaiduMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A63063B1FD11F8400902815 /* RNBaiduMapView.m */; };
+		9ABDFDAA1FD904F300B28C12 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58781FD8ECE900F569A2 /* libstdc++.6.0.9.tbd */; };
+		9ABDFDAB1FD904F300B28C12 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58771FD8ECE200F569A2 /* CoreTelephony.framework */; };
+		9ABDFDAC1FD904F300B28C12 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58761FD8ECDB00F569A2 /* libsqlite3.0.tbd */; };
+		9ABDFDAD1FD904F300B28C12 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58751FD8ECD400F569A2 /* Security.framework */; };
+		9ABDFDAE1FD904F300B28C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58741FD8ECCE00F569A2 /* CoreGraphics.framework */; };
+		9ABDFDAF1FD904F300B28C12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58731FD8ECC800F569A2 /* SystemConfiguration.framework */; };
+		9ABDFDB01FD904F300B28C12 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58721FD8ECC200F569A2 /* OpenGLES.framework */; };
+		9ABDFDB11FD904F300B28C12 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58711FD8ECB700F569A2 /* QuartzCore.framework */; };
+		9ABDFDB21FD904F300B28C12 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B58701FD8ECB000F569A2 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,6 +83,15 @@
 				9A63062C1FCFF73600902815 /* BaiduMapAPI_Base.framework in Frameworks */,
 				9A63062F1FCFF73600902815 /* BaiduMapAPI_Map.framework in Frameworks */,
 				9A6306321FCFF73600902815 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				9ABDFDAA1FD904F300B28C12 /* libstdc++.6.0.9.tbd in Frameworks */,
+				9ABDFDAB1FD904F300B28C12 /* CoreTelephony.framework in Frameworks */,
+				9ABDFDAC1FD904F300B28C12 /* libsqlite3.0.tbd in Frameworks */,
+				9ABDFDAD1FD904F300B28C12 /* Security.framework in Frameworks */,
+				9ABDFDAE1FD904F300B28C12 /* CoreGraphics.framework in Frameworks */,
+				9ABDFDAF1FD904F300B28C12 /* SystemConfiguration.framework in Frameworks */,
+				9ABDFDB01FD904F300B28C12 /* OpenGLES.framework in Frameworks */,
+				9ABDFDB11FD904F300B28C12 /* QuartzCore.framework in Frameworks */,
+				9ABDFDB21FD904F300B28C12 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
