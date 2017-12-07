@@ -35,6 +35,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A4B58701FD8ECB000F569A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9A4B58711FD8ECB700F569A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A4B58721FD8ECC200F569A2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9A4B58731FD8ECC800F569A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A4B58741FD8ECCE00F569A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A4B58751FD8ECD400F569A2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9A4B58761FD8ECDB00F569A2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9A4B58771FD8ECE200F569A2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9A4B58781FD8ECE900F569A2 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		9A63058E1FCFD40A00902815 /* libCustomNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCustomNative.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6305911FCFD40A00902815 /* CustomNative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNative.h; sourceTree = "<group>"; };
 		9A6305921FCFD40A00902815 /* CustomNative.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNative.m; sourceTree = "<group>"; };
@@ -71,12 +80,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A4B586F1FD8ECB000F569A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A4B58781FD8ECE900F569A2 /* libstdc++.6.0.9.tbd */,
+				9A4B58771FD8ECE200F569A2 /* CoreTelephony.framework */,
+				9A4B58761FD8ECDB00F569A2 /* libsqlite3.0.tbd */,
+				9A4B58751FD8ECD400F569A2 /* Security.framework */,
+				9A4B58741FD8ECCE00F569A2 /* CoreGraphics.framework */,
+				9A4B58731FD8ECC800F569A2 /* SystemConfiguration.framework */,
+				9A4B58721FD8ECC200F569A2 /* OpenGLES.framework */,
+				9A4B58711FD8ECB700F569A2 /* QuartzCore.framework */,
+				9A4B58701FD8ECB000F569A2 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A6305851FCFD40A00902815 = {
 			isa = PBXGroup;
 			children = (
 				9A6306231FCFF73600902815 /* lib */,
 				9A6305901FCFD40A00902815 /* CustomNative */,
 				9A63058F1FCFD40A00902815 /* Products */,
+				9A4B586F1FD8ECB000F569A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
